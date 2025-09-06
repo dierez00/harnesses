@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="assets/logo.ico" type="image/x-icon">
   <title>HARNESSES R US — Industrial Harness Distribution (USA)</title>
   <meta name="description" content="HARNESSES R US is a US-based company dedicated to the distribution of industrial harnesses and specialized wiring. Request a quote today and get immediate attention." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -76,7 +77,7 @@
             </div>
           </article>
           <article class="card">
-            <img src="assets/intercambio-ideas.jpg" alt="Industrial cables" loading="lazy">
+            <img src="assets/brain-storm.jpg" alt="Industrial cables" loading="lazy">
             <div class="card-body">
               <h3>Custom Design</h3>
               <p>DFM/DFA support, connector selection, gauge, jacket, and protection (tubing, braid, tape, conduits).</p>
@@ -129,7 +130,7 @@
             <li>Service for OEMs, integrators, and MRO</li>
           </ul>
         </div>
-        <img class="about-img" src="assets/maquinaria2.jpg" alt="Modern industrial plant" loading="lazy" />
+        <img class="about-img" src="assets/machines.jpg" alt="Modern industrial plant" loading="lazy" />
       </div>
 </section>
 
@@ -175,17 +176,17 @@
               <textarea name="message" rows="5" placeholder="Describe quantities, connectors, gauge, etc." required></textarea>
             </label>
             <label class="check full">
-              <input type="checkbox" name="terms" id="termsCheck" required>
-              <span class="checkmark"></span>
-              <span class="check-label">I accept the processing of my data for contact purposes.</span>
+                <span class="modern-check">
+                  <input type="checkbox" name="terms" id="termsCheck" required>
+                  <span class="checkmark"></span>
+                </span>
+                <span class="check-label">I accept the processing of my data for contact purposes.</span>
             </label>
           </div>
           <button type="submit" class="btn btn-primary" id="sendBtn">
-            <span class="btn-spinner" aria-hidden="true"></span>
-            Send
+              <span class="btn-spinner" aria-hidden="true"></span>
+              <span>Send</span>
           </button>
-          <p class="form-note">*Required fields.</p>
-          <p class="tiny-note">This site sends information to the backend that publishes to the <code>CONTACTO</code> queue in RabbitMQ.</p>
         </form>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
       </div>
@@ -206,7 +207,6 @@
       <div class="mini">
         <span>© <span id="year"></span> HARNESSES R US. All rights reserved.</span>
         <span>Privacy Policy | Terms of Service</span>
-        <span>Follow us: <a href="#">LinkedIn</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a></span>
       </div>
     </div>
   </footer>
